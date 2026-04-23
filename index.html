@@ -11,6 +11,7 @@ body {
   font-family: Arial, sans-serif;
   background: white;
   color: #333;
+  line-height: 1.7;
 }
 
 header {
@@ -21,30 +22,50 @@ header {
 }
 
 section {
-  padding: 40px 20px;
-  text-align: center;
+  padding: 50px 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  text-align: left;
 }
 
 h2 {
   color: orange;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.about, .owner, .testimonials, .contact {
-  max-width: 800px;
-  margin: auto;
+p {
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.owner {
+  text-align: center;
 }
 
 .owner img {
-  width: 150px;
+  width: 160px;
   border-radius: 50%;
-  margin-top: 20px;
+  margin: 20px 0;
 }
 
-.testimonial-box {
+.testimonial {
+  display: flex;
+  align-items: center;
   background: #f9f9f9;
-  padding: 20px;
-  margin: 10px 0;
+  margin: 15px 0;
+  padding: 15px;
   border-left: 5px solid orange;
+  gap: 15px;
+}
+
+.testimonial img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
 }
 
 footer {
@@ -63,9 +84,10 @@ footer {
   <p>Empowering Students for Academic Excellence</p>
 </header>
 
-<section class="about">
-  <h2>About Us</h2>
-  <p>If Your Child Is Only Learning What School Teaches… They Are Already Falling Behind
+<section>
+  <div class="container">
+    <h2>About Us</h2>
+    <p>If Your Child Is Only Learning What School Teaches… They Are Already Falling Behind
 
 We are raising confident, smart, globally aware children who can think, speak, create, and lead in today’s fast-changing world.
 At Sparky Beyond School, your child doesn’t just learn…
@@ -92,12 +114,14 @@ Build confidence
 Learn tech and AI
 Develop strong values and morals
 Think beyond their environment</p>
-</section>
+  </div>
+  </section>
 
 <section class="owner">
-  <h2>Meet the Founder</h2>
-  <img src="owner.jpg" alt="Owner">
-  <p> FOUNDER SECTION (POWERFUL)
+  <div class="container">
+    <h2>Meet the Founder</h2>
+    <img src="owner.jpg">
+    <p>FOUNDER SECTION 
 Meet the Founder – Viola Okpara (Aunty Vee)
 An experienced educator, school owner, and mentor with over 15 years of working with children.
 As a mother and educator, she understands one thing clearly:
@@ -107,6 +131,7 @@ Guided early
 Exposed to the right environment
 Taught how to think, not just memorize
 Sparky Beyond School was created to give children that advantage early.</p>
+  </div>
 </section>
 
 <section class="testimonials">
@@ -114,19 +139,18 @@ Sparky Beyond School was created to give children that advantage early.</p>
 
   <div class="testimonial-box">
     <p>TESTIMONIAL 1</p>
-   <img src="testimonial 1.jpg" alt="Owner">
+   <img src="testimonial 1.jpg">
   </div>
 
   <div class="testimonial-box">
     <p>TESTIMONIAL 2</p>
-  <img src="testimonial 2.jpg" alt="Owner">
+  <img src="testimonial 2.jpg">
   </div>
 
   <div class="testimonial-box">
     <p>TESTIMONIAL 3</p>
-  <img src="testimonial 3.jpg" alt="Owner">
+  <img src="testimonial 3.jpg">
   </div>
-
 </section>
 
 <section class="contact">
