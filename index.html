@@ -35,7 +35,7 @@
 
 <!-- PROBLEM -->
 <section>
-  <section id="about">
+  <section id="about" class="fade-in">
   <div class="container">
     <h2>The Reality Most Parents Ignore</h2>
 
@@ -63,7 +63,7 @@
 
 <!-- FOUNDER -->
 <section>
-  <section id="founder">
+  <section id="founder" class="fade-in">
 <div class="container founder">
   <h2>Meet the Founder</h2>
 
@@ -81,7 +81,7 @@
 
 <!-- TRANSFORMATION -->
 <section>
-  <section id="program">
+  <section id="program" class="fade-in">
   <div class="container">
     <h2>What Your Child Becomes</h2>
 
@@ -127,7 +127,7 @@
 
 <!-- URGENCY -->
 <section>
-  <section id="contact">
+  <section id="contact" class="fade-in">
   <div class="container">
     <h2>Don’t Wait</h2>
 
@@ -143,5 +143,24 @@
   <p>Preparing Children for a Changing World</p>
 </footer>
 
+<script>
+const elements = document.querySelectorAll('.fade-in');
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show');
+    }
+  });
+});
+
+elements.forEach(el => observer.observe(el));
+</script>
+
+  <div class="sticky-cta">
+  <a href="https://wa.me/2348034451548?text=Hello%20Aunty%20Vee,%20I%20want%20to%20enroll%20my%20child">
+    👉 Chat on WhatsApp
+  </a>
+</div>
 </body>
 </html>
