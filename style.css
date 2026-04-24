@@ -148,6 +148,10 @@ html {
     width: 120px;
   }
 
+  .founder-img img {
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+  
   .hero h1 {
     font-size: 28px;
   }
@@ -157,13 +161,16 @@ html {
   }
 }
 
-.founder img {
-  width: 150px;
-  max-width: 100%;
+.founder-img {
+  max-width: 320px;
+  margin: 0 auto 20px;
+}
+
+.founder-img img {
+  width: 100%;
   height: auto;
-  border-radius: 50%;
+  border-radius: 12px; /* soft rectangle */
   display: block;
-  margin: 0 auto;
 }
 
 .img-box:hover {
