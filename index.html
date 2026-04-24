@@ -3,164 +3,209 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Grace Tutorial Academy</title>
+
+<title>Sparky Beyond School</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
 <style>
+
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background: white;
+  font-family: 'Poppins', sans-serif;
+  background: #ffffff;
   color: #333;
   line-height: 1.7;
 }
 
-header {
-  background: orange;
-  color: white;
-  text-align: center;
-  padding: 60px 20px;
-}
-
+/* GENERAL */
 section {
-  padding: 50px 20px;
+  padding: 80px 20px;
 }
 
 .container {
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
-  text-align: left;
 }
 
-h2 {
-  color: orange;
+/* HERO */
+.hero {
+  background: linear-gradient(135deg, #eef2ff, #ffffff);
   text-align: center;
+  padding: 120px 20px;
+}
+
+.hero h1 {
+  font-size: 38px;
+  font-weight: 700;
   margin-bottom: 20px;
 }
 
-p {
-  margin-bottom: 15px;
-  text-align: justify;
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 
-.owner {
+.cta {
+  display: inline-block;
+  background: #6c63ff;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+
+.cta:hover {
+  background: #5848e5;
+}
+
+/* SECTIONS */
+h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.card {
+  background: #f9f9ff;
+  padding: 25px;
+  border-radius: 12px;
+  margin: 15px 0;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+/* FOUNDER */
+.founder {
   text-align: center;
 }
 
-.owner img {
+.founder img {
   width: 160px;
   border-radius: 50%;
-  margin: 20px 0;
+  margin-bottom: 20px;
 }
 
+/* TESTIMONIALS */
 .testimonial {
-  display: flex;
-  align-items: center;
-  background: #f9f9f9;
-  margin: 15px 0;
-  padding: 15px;
-  border-left: 5px solid orange;
-  gap: 15px;
-}
-
-.testimonial img {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-}
-
-footer {
-  background: orange;
-  color: white;
-  text-align: center;
+  background: #ffffff;
   padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  margin: 15px 0;
 }
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 40px;
+  background: #6c63ff;
+  color: white;
+}
+
 </style>
 </head>
 
 <body>
 
-<header>
-  <h1>Sparky Beyond School</h1>
-  <p>Empowering Students for Academic Excellence</p>
-</header>
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <h1>If Your Child Is Only Learning What School Teaches… They Are Already Falling Behind</h1>
+    <p>We are raising confident, smart, globally aware children who can think, speak, create, and lead in today’s fast-changing world.</p>
+    <p><strong>At Sparky Beyond School, your child doesn’t just learn… They are transformed.</strong></p>
 
+    <a class="cta" href="https://wa.me/2348034451548?text=Hello%20Aunty%20Vee,%20I%20want%20to%20enroll%20my%20child%20in%20Sparky%20Beyond%20School">
+      👉 Chat on WhatsApp to Secure Your Child’s Spot
+    </a>
+  </div>
+</section>
+
+<!-- PROBLEM -->
 <section>
   <div class="container">
-    <h2>About Us</h2>
-    <p>If Your Child Is Only Learning What School Teaches… They Are Already Falling Behind
+    <h2>The Reality Most Parents Ignore</h2>
 
-We are raising confident, smart, globally aware children who can think, speak, create, and lead in today’s fast-changing world.
-At Sparky Beyond School, your child doesn’t just learn…
-They are transformed.
-    
-CTA BUTTON: 👉 Chat on WhatsApp to Secure Your Child’s Spot
+    <div class="card">Struggle to express themselves confidently</div>
+    <div class="card">Depend only on school knowledge</div>
+    <div class="card">Little exposure to real-world thinking</div>
+    <div class="card">Not prepared for the future</div>
 
-Most children today:
-Struggle to express themselves confidently
-Depend only on school knowledge
-Have little exposure to real-world thinking
-Are not prepared for the future
-And the truth is…
-School alone is no longer enough.
-If nothing changes, your child may:
-Lack confidence
-Miss global opportunities
-Struggle to stand out
-
-SPARKY BEYOND SCHOOL is not an extra class.
-It is a necessary advantage for children growing up in today’s world.
-We are a learning community where children:
-Build confidence
-Learn tech and AI
-Develop strong values and morals
-Think beyond their environment</p>
+    <p><strong>School alone is no longer enough.</strong></p>
   </div>
-  </section>
+</section>
 
-<section class="owner">
+<!-- INTRO -->
+<section>
   <div class="container">
+    <h2>Why Sparky Exists</h2>
+
+    <div class="card">Build confidence</div>
+    <div class="card">Learn tech and AI</div>
+    <div class="card">Develop values and morals</div>
+    <div class="card">Think beyond their environment</div>
+
+  </div>
+</section>
+
+<!-- FOUNDER -->
+<section>
+  <div class="container founder">
     <h2>Meet the Founder</h2>
+
     <img src="owner.jpg">
-    <p>FOUNDER SECTION 
-Meet the Founder – Viola Okpara (Aunty Vee)
-An experienced educator, school owner, and mentor with over 15 years of working with children.
-As a mother and educator, she understands one thing clearly:
-The world has changed… but many children are not being prepared for it.
-She has mentored hundreds of children and seen firsthand what happens when a child is:
-Guided early
-Exposed to the right environment
-Taught how to think, not just memorize
-Sparky Beyond School was created to give children that advantage early.</p>
+
+    <p><strong>Viola Okpara (Aunty Vee)</strong></p>
+
+    <p>An experienced educator with over 15 years of mentoring children.</p>
+
+    <p>She believes children must be guided early, exposed to the right environment, and taught how to think — not just memorize.</p>
   </div>
 </section>
 
-<section class="testimonials">
-  <h2>Testimonials</h2>
+<!-- TRANSFORMATION -->
+<section>
+  <div class="container">
+    <h2>What Your Child Becomes</h2>
 
-  <div class="testimonial-box">
-    <p>TESTIMONIAL 1</p>
-   <img src="testimonial 1.jpg">
-  </div>
+    <div class="card">Speak confidently without fear</div>
+    <div class="card">Strong thinking & problem-solving skills</div>
+    <div class="card">Create real tech projects</div>
+    <div class="card">Discipline, values, and morals</div>
+    <div class="card">Global exposure</div>
 
-  <div class="testimonial-box">
-    <p>TESTIMONIAL 2</p>
-  <img src="testimonial 2.jpg">
-  </div>
-
-  <div class="testimonial-box">
-    <p>TESTIMONIAL 3</p>
-  <img src="testimonial 3.jpg">
   </div>
 </section>
 
-<section class="contact">
-  <h2>Contact Us</h2>
-  <p>Phone: 08034451548</p>
-  <p>Email: sparkybeyondschool@gmail.com</p>
+<!-- TESTIMONIALS -->
+<section>
+  <div class="container">
+    <h2>What Parents Are Saying</h2>
+
+    <div class="testimonial">“My child is now more confident and speaks boldly. I’ve seen a big difference.”</div>
+
+    <div class="testimonial">“The transformation is real. This program is different.”</div>
+
+  </div>
+</section>
+
+<!-- URGENCY -->
+<section>
+  <div class="container">
+    <h2>Don’t Wait</h2>
+
+    <p>The earlier your child is exposed, the stronger their future becomes.</p>
+
+    <a class="cta" href="https://wa.me/2348034451548?text=Hello%20Aunty%20Vee,%20I%20want%20to%20enroll%20my%20child%20in%20Sparky%20Beyond%20School">
+      👉 Chat on WhatsApp Now
+    </a>
+  </div>
 </section>
 
 <footer>
-  <p>© 2026 Sparky Beyond School</p>
+  <p>Preparing Children for a Changing World</p>
 </footer>
 
 </body>
