@@ -75,3 +75,12 @@ section {
   padding: 15px;
   border-radius: 50%;
 }
+
+.testimonial img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  display: block;
+  margin: 15px auto;
+  border-radius: 10px;
+}
