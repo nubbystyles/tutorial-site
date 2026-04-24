@@ -123,3 +123,50 @@ html {
 .nav a:hover {
   color: #6c63ff;
 }
+
+.img-box {
+  max-width: 320px;
+  margin: 0 auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  background: #fff;
+}
+
+.img-box img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .img-box {
+    max-width: 260px;
+  }
+
+  .founder img {
+    width: 120px;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero {
+    padding: 100px 15px;
+  }
+}
+
+.founder img {
+  width: 150px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.img-box:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+}
