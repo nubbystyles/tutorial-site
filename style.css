@@ -235,3 +235,8 @@ section {
   margin-top: 5px;
   font-weight: 600;
 }
+
+.final-cta {
+  text-align: center;
+  background: #f4f6ff;
+}
